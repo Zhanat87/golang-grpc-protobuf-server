@@ -12,4 +12,6 @@ docker push zhanat87/golang-grpc-protobuf-server
 # list of all docker images on host machine
 docker images
 
+curl http://zhanat.site:9000/hooks/golang-grpc-protobuf-server
+
 echo "deploy success"
