@@ -9,4 +9,7 @@ docker pull zhanat87/golang-grpc-protobuf-server
 docker-compose up -d
 docker images
 
+# note: need change rights to execute in hosting:
+# chmod +x golang-grpc-protobuf-server/install.sh
+
 echo "install success"
